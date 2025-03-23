@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "rfitria",
   "homepage": "https://hamishw.com",
-  "description": "Portfolio site for Hamish Williams",
-  "repository": "https://github.com/HamishMW/portfolio.git",
+  "description": "Portfolio site for Ririn Fitria",
+  "repository": "https://github.com/MukhlisAji/rfitria.git",
   "author": "Hamish Williams",
   "sideEffects": false,
   "type": "module",
@@ -11,7 +11,7 @@
     "dev": "node ./scripts/dev.cjs && remix vite:dev",
     "start": "wrangler pages dev ./build/client",
     "postinstall": "node ./scripts/draco.cjs",
-    "deploy": "npm run build && wrangler pages deploy ./build/client --project-name portfolio",
+    "deploy": "npm run build && wrangler pages deploy ./build/client --project-name rfitria",
     "dev:storybook": "storybook dev -p 6006",
     "build:storybook": "storybook build",
     "deploy:storybook": "wrangler pages deploy ./storybook-static --project-name portfolio-storybook --branch main"
